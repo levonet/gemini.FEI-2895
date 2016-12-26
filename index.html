@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <style type="text/css">
+      .test { background: green; width: 300px; }
+      .test_e1, .test_e2, .test_e3, .test_e4, .test_e5, .test_e6, .test_e7, .test_e8, .test_e9, .test_e10 { background: yellow; margin: 2px; }
+      .test_hide1 { display: none; }
+      .test_hide2 { transform: scale(0); }
+      .test_hide3 { height: 0; overflow: hidden; }
+      .test_hide4 { filter: blur(100px); }
+      .test_hide5 { position: absolute; top: -9999em; left: auto; width: 1px; height: 1px; overflow: hidden; }
+    </style>
+  </head>
+  <body>
+    <div class="test">
+      <ol>
+        <li><div class="test_wrap"><div class="test_e1">text 1</div></li>
+        <li><div class="test_wrap"><div class="test_e2 test_hide1">text 2</div></li>
+        <li><div class="test_e3">text 3</div></li>
+        <li><div class="test_e4 test_hide2">text 4</div></li>
+        <li><div class="test_e5">text 5</div></li>
+        <li><div class="test_e6 test_hide3">text 6</div></li>
+        <li><div class="test_e7">text 7</div></li>
+        <li><div class="test_e8 test_hide4">text 8</div></li>
+        <li><div class="test_e9">text 9</div></li>
+        <li><div class="test_e10 test_hide5">text 10</div></li>
+      </ol>
+    </div>
+  </body>
+</html>
